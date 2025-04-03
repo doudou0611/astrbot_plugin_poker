@@ -145,7 +145,7 @@ def evaluate_hand(cards: list) -> tuple:
 # -------------------------
 # 德州扑克插件
 # -------------------------
-@register("astrbot_plugin_holdem_poker", "SamsaraMBJC", "Texas Hold'em Poker Bot插件（支持QQ）", "1.5.0", "https://github.com/SamsaraMBJC/astrbot_plugin_holdem_poker")
+@register("astrbot_plugin_poker_fixed", "Doudou0611", "修复SamsaraMBJC的BUG", "1.5.0", "https://github.com/doudou0611/astrbot_plugin_poker")
 class TexasHoldemPoker(Star):
     def __init__(self, context: Context, config: dict = None):  # <-- 添加默认值
         super().__init__(context)
