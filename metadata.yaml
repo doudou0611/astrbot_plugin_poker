@@ -1,6 +1,6 @@
-name: astrbot_plugin_holdem_poker # 这是你的插件的唯一识别名。
-desc: 德州扑克,支持QQ群 # 插件简短描述，增加下注上限
+name: astrbot_plugin_poker_fixed # 这是你的插件的唯一识别名。
+desc: 德州扑克，修复SamsaraMBJC加载BUG # 插件简短描述，增加下注上限
 help: 输入 /poker 查看关键词回复帮助。 # 插件的帮助信息
-version: v1.5.0 # 插件版本号。格式：v1.1.1 或者 v1.1
-author: SamsaraMBJC # 作者 原作者w33d v1.4.0仅支持微信
-repo: https://github.com/SamsaraMBJC/astrbot_plugin_holdem_poker # 插件的仓库地址
+version: v1.5.1 # 插件版本号。格式：v1.1.1 或者 v1.1
+author: Doudou0611 # 作者 原作者SamsaraMBJC v1.5.0
+repo: https://github.com/doudou0611/astrbot_plugin_poker # 插件的仓库地址
