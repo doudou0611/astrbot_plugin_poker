@@ -147,9 +147,9 @@ def evaluate_hand(cards: list) -> tuple:
 # -------------------------
 @register("astrbot_plugin_holdem_poker", "SamsaraMBJC", "Texas Hold'em Poker Bot插件（支持QQ）", "1.5.0", "https://github.com/SamsaraMBJC/astrbot_plugin_holdem_poker")
 class TexasHoldemPoker(Star):
-    def __init__(self, context: Context, config: dict):
+    def __init__(self, context: Context, config: dict = None):  # <-- 添加默认值
         super().__init__(context)
-        self.config = config
+        self.config = config or {}
         self.games = {}  # 存储各群游戏状态
         self.tokens_file = os.path.join(os.path.dirname(__file__), "tokens.json")
         self.tokens = self.load_tokens()
