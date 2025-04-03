@@ -1,9 +1,4 @@
-# Texas Hold'em Poker Bot 插件
-
-**插件名称**: astrbot_plugin_holdem_poker  
-**作者**: SamsaraMBJC  
-**版本**: 1.5.0  
-**仓库**: [GitHub 地址](https://github.com/SamsaraMBJC/astrbot_plugin_holdem_poker)
+修复SamsaraMBJC版本BUG
 
 **原插件名称**: Texas Hold'em Poker Bot  
 **原作者**: w33d  
